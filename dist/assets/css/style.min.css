@@ -327,14 +327,6 @@ template {
   font-weight: 400;
   font-display: swap; }
 
-/*.container {
-    display: grid;
-    justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    grid-template-columns: repeat(3, 33%);
-    grid-auto-rows: minmax(80px, auto);
-}*/
 html, body {
   font-family: "Larsseit", sans-serif; }
 
@@ -424,5 +416,26 @@ html, body {
   line-height: 16px;
   text-decoration: none;
   color: #22356f; }
+
+.whytherive {
+  display: flex;
+  justify-content: space-between;
+  grid-area: 2/1/2/4;
+  background: #62d0df; }
+  .whytherive__left {
+    padding: 115px 130px 95px 180px; }
+  .whytherive__title {
+    margin-bottom: 95px;
+    font-size: 36px;
+    line-height: 27px;
+    color: #ffffff; }
+  .whytherive__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff; }
+  .whytherive__s {
+    font-size: 24px;
+    line-height: 35px;
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.min.css.map */
