@@ -456,4 +456,58 @@ html, body {
     color: #22356f;
     max-width: 592px; }
 
+.group {
+  grid-area: 4/1/4/4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px; }
+  .group__link {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    margin-bottom: 24px; }
+  .group__wrap {
+    display: flex; }
+  .group__item {
+    width: 360px;
+    height: 360px;
+    align-self: center; }
+    .group__item--one {
+      background: #ffe2de; }
+    .group__item--two {
+      background: #C4E769; }
+    .group__item--tree {
+      background: #62D0DF; }
+    .group__item--four {
+      background: #0052C1; }
+  .group__subtitle {
+    padding: 100px 80px 0;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #ffffff;
+    position: relative; }
+  .group__subtitle::before {
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #e9b730;
+    position: relative;
+    top: 20px;
+    right: 30px; }
+  .group__subtitle::after {
+    content: "";
+    display: inline-block;
+    width: 70%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 80px;
+    left: 50px; }
+
 /*# sourceMappingURL=style.min.css.map */
