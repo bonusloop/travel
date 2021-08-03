@@ -572,6 +572,9 @@ html, body {
 .info__block {
   padding: 80px 105px 0; }
 
+.info__block--mar {
+  margin-bottom: 70px; }
+
 .info__title {
   margin-bottom: 28px;
   font-size: 28px;
@@ -623,5 +626,43 @@ html, body {
   line-height: 23px;
   letter-spacing: 0.1em;
   text-decoration: none; }
+
+.contact__article {
+  grid-area: 10/1/11/3;
+  padding-left: 180px;
+  background: #22356f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 105px 200px 42px 180px; }
+
+.contact__heading {
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  margin-bottom: 230px; }
+
+.contact__big-heading {
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em; }
+
+.contact__description {
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em; }
+
+.contact__link {
+  color: #62D0DF;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-decoration: none; }
+
+.contact__img-charles {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 /*# sourceMappingURL=style.min.css.map */
